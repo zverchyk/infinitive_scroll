@@ -1,5 +1,5 @@
 
-function loadPic(numPic = 30){
+function loadPic(numPic = 20){
     var i = 1;
     while(i<numPic)
         {
@@ -7,7 +7,7 @@ function loadPic(numPic = 30){
         var clone = element.cloneNode(true);
         clone.id ="giv"+i;
         element.after(clone);
-        i= i+1;
+        i = i + 1;
         }
 }
 loadPic()
